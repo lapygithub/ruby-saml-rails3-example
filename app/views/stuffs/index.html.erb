@@ -7,7 +7,7 @@
   <%= name %> = <%= value %><br>
      <% end %>
   <br>
-   <%= link_to 'Log Out', @settings.single_logout_service_url %>
+   <%= link_to 'Log Out', @settings.assertion_consumer_logout_service_url %>
 <% else %>
   Not logged in.  <br><br>
    <%= link_to 'Log In', '/saml' %>
